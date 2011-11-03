@@ -1,3 +1,9 @@
+# revision 21719
+# category Package
+# catalog-ctan /macros/latex/contrib/finstrut
+# catalog-date 2011-03-14 20:53:55 +0100
+# catalog-license lppl1.3
+# catalog-version 0.5
 Name:		texlive-finstrut
 Version:	0.5
 Release:	1
@@ -49,6 +55,7 @@ provides a solution to this problem.
 %doc %{_texmfdistdir}/source/latex/finstrut/finstrut.tex
 %doc %{_texmfdistdir}/source/latex/finstrut/fstrutst.tex
 %doc %{_texmfdistdir}/source/latex/finstrut/srcfiles.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -59,3 +66,5 @@ provides a solution to this problem.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
