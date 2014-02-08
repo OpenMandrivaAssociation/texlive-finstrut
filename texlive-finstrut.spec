@@ -6,7 +6,7 @@
 # catalog-version 0.5
 Name:		texlive-finstrut
 Version:	0.5
-Release:	2
+Release:	3
 Summary:	Adjust behaviour of the ends of footnotes
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/finstrut
