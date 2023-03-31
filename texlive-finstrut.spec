@@ -1,6 +1,6 @@
 Name:		texlive-finstrut
 Version:	21719
-Release:	1
+Release:	2
 Summary:	Adjust behaviour of the ends of footnotes
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/finstrut
