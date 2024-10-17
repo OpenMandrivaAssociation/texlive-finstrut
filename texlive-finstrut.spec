@@ -3,7 +3,7 @@ Version:	21719
 Release:	2
 Summary:	Adjust behaviour of the ends of footnotes
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/finstrut
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/finstrut
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/finstrut.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/finstrut.doc.r%{version}.tar.xz
